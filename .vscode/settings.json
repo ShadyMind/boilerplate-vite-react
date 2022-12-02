@@ -1,0 +1,50 @@
+{
+    "typescript.format.semicolons": "insert",
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+    // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "problems.showCurrentInStatus": false,
+    "problems.autoReveal": true,
+    "problems.decorations.enabled": true,
+    "problems.sortOrder": "severity",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.artifacts": true,
+        "**/*.code-search": true
+    },
+    "files.associations": {
+        "*.css": "postcss"
+    },
+    "javascript.suggest.completeJSDocs": true,
+    "javascript.suggest.includeCompletionsForImportStatements": true,
+    "javascript.suggest.jsdoc.generateReturns": false,
+    "typescript.suggest.jsdoc.generateReturns": false,
+    "css.hover.documentation": true,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.tsx": "${capture}.ts, ${capture}.d.ts",
+        "*.ts": "${capture}.js, ${capture}.js.map, ${capture}.spec.ts, ${capture}.d.ts",
+        "*.js": "${capture}.js.map, ${capture}.spec.js, ${capture}.d.ts",
+        "package.json": "package-lock.json,yarn.lock,pnpm-lock.yaml",
+        "webpack.config.ts": "postcss.config.${extname},jest.config.ts,babel.config.${extname},tsconfig.json",
+        ".gitignore": "*ignore",
+        ".npmrc": ".yarnrc, .ncurc.js"
+    },
+    "explorer.fileNesting.expand": false,
+    "explorer.expandSingleFolderWorkspaces": false,
+    "explorer.openEditors.visible": 4,
+    "editor.codeLens": true,
+    "explorer.sortOrderLexicographicOptions": "upper"
+}
+

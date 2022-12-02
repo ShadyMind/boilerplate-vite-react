@@ -1,0 +1,24 @@
+:root {
+    --background: #f9f9f9;
+    --foreground: #f3f3f3;
+    --background-inverted: #4f4f4f;
+    --background-inverted-light: #5a5a5a;
+    --text-color: #333333;
+    --text-color-inverted: var(--background);
+    --text-color-accent: var(--text-color);
+
+    /* #### GAPS #### */
+    --gap-z: 0;
+    --gap-xxs: 2px;
+    --gap-xs: 4px;
+    --gap-s: 8px;
+    --gap-m: 12px;
+    --gap-l: 16px;
+    --gap-xl: 24px;
+    --gap-xxl: 32px;
+
+    --shadow-color: rgba(0, 0, 0, .1);
+    --shadow-m: 0 1px 3px 1px var(--shadow-color);
+    --shadow-l: 0 2px 5px 3px var(--shadow-color);
+
+}

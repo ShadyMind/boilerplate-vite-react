@@ -1,0 +1,16 @@
+#/bin/sh
+
+if [ -d ".git" ]; then
+    rm -rf .git
+fi
+
+echo
+echo "Project completly detouched from source repository!"
+echo "Next you should execute some git commands:"
+echo
+echo "  $ git init                              # create new repository from current files"
+echo "  $ git remote add origin <GIT_REPO_URL>  # connect your remote to new local repository"
+echo "  $ git push origin <MAIN_BRANCH>         # will push code to your repository"
+echo
+echo "Boilerplate will be deployed to your own repository."
+echo

@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Golos UI';
+	src:
+		url('~/assets/fonts/Golos-UI_VF.woff2') format('woff2'),
+		url('~/assets/fonts/Golos-UI_VF.woff') format('woff');
+	font-style: normal;
+	font-weight: 125 300 500 700 950;
+	font-stretch: 75% 100% 125%;
+}
+
+@import url('./palette.css');
+
+html {
+	font-weight: 300;
+	font-family: Golos UI;
+}
+
+body {
+	background-color: var(--foreground);
+}

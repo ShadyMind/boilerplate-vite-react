@@ -1,0 +1,1 @@
+export { useAsteroidsFeed } from './use-asteroids-feed';

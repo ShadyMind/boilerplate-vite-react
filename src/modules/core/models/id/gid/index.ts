@@ -1,0 +1,1 @@
+export { gid } from './gid';

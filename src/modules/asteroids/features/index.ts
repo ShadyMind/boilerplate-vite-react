@@ -1,0 +1,1 @@
+export { useAsteroidsResource } from './use-asteroids-resource';
